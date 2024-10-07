@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+#section{
+  padding-top: 8%;
+    height: 500px;
+    
+}
+
+.filhosection{
+    padding: 1%;
+    height: auto;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#incod{
+   background-image:url(/desafio2/assets/imgs/Logo.png) ; 
+   width: 510px;
+   height: 150px;
+   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  
+}
+
+#divvo {
+    width: 510px;
+    height: 200px;
+    margin-top: 5%;
+    flex-direction: row wrap;
+}
+
+.divtio{
+    width:64.5%;
+    height: 100px;
+    margin-top: 2%;
+    
+} 
+
+.divprimo{
+    width: 510px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:3% ;
+
+}
+
+#casali{
+width: 100PX;
+height: 100px;
+height: auto;
+
+flex-wrap: wrap;
+}
+
+#barra{
+    background-color: #1E1E1E;
+    border:1px solid  #9E9E9E;
+    border-radius: 5px;
+    color: #858585;
+    width: 370px;
+    padding: 1.2%;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+#nvinput{
+    background-color: #161616;
+    border:none;
+    border-radius: 5px;
+    color: #858585;
+    width: 330px;
+    padding: 1.2%;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    margin-left: 2%;
+}
+
+#barra:hover{
+    
+    background-color: #2b2a2a;
+}
+
+#enviar{
+    text-align: center;
+    padding: 2.6%;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px;
+    border-color: #2E2E2E;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+#enviar:hover {
+    background-color: #2e2d2d;
+}
+
+#h1{
+    font-size: 22px;
+    padding-bottom: 1.5%;
+
+}
+
+.item {
+    background-color: #1E1E1E;
+    width: 510%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #2E2E2E;
+    border-radius:5px ;
+    margin-bottom: 15%;
+    word-break: break-all;
+    flex-wrap: wrap;
+
+    
+}
+
+#part1{
+    width: 75%;
+    padding: 1%;
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+#part1 span {
+    margin-left: 3%;
+    
+    background-color: #1E1E1E;
+}
+#checkbox {
+    height: 20px;
+    width: 20px;
+    accent-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+    
+#checkbox:checked + span {
+    text-decoration: line-through;
+
+}
+
+
+#part2{
+    width: 10%;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5%;
+}
+
+#part2 .btnbbs{
+    height: 35px;
+    width: 35px;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnbbs:hover {
+    background-color: #000000;
+} 
+
+.corrigir-btnbbs {
+    background-image: url(/desafio2/assets/imgs/PencilSimple.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 10px;
+    height: 10px;
+    border: none;
+    
+}
+
+
+.excluir-btnbbs{
+    background-image: url(/desafio2/assets/imgs/Trash.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    border:none;
+}
+
+
+
+
+li {
+
+    list-style-type: none;
+}
+
+#casacheckbox{
+    background-color: #1E1E1E;
+}
