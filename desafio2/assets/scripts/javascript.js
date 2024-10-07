@@ -55,8 +55,10 @@ function criartagli(tarefa){
     li.innerHTML = `
             <div id="part1">
                    
-                    <div id='casacheckbox' ><input type="checkbox" name="" id="checkbox"></div>
-                    <span>${textodig}</span> 
+                    <div id='casacheckbox' >
+                        <input type="checkbox" name="" id="checkbox">
+                        <span class="textdig">${textodig}</span> 
+                    </div>
             </div>
             <div id="part2">                    
             <button class="corrigir-btnbbs  btnbbs" id="corrigir-${tarefa.id}"></button>

@@ -155,7 +155,7 @@ flex-wrap: wrap;
     cursor: pointer;
 }
     
-#checkbox:checked + span {
+#checkbox:checked ~ span {
     text-decoration: line-through;
 
 }
@@ -211,4 +211,6 @@ li {
 
 #casacheckbox{
     background-color: #1E1E1E;
+    display: flex;
+    flex: 1;
 }
