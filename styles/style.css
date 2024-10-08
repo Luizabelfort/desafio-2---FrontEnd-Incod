@@ -75,19 +75,19 @@ flex-wrap: wrap;
     width: 370px;
     padding: 1.2%;
     font-size: 20px;
-    transition: background-color 0.3s;
 }
 
 #nvinput{
-    background-color: #161616;
+    
+    background-color:  #10101075;
     border:none;
     border-radius: 5px;
     color: #858585;
     width: 330px;
     padding: 1.2%;
     font-size: 20px;
-    transition: background-color 0.3s;
     margin-left: 2%;
+    margin-top: -3px;
 }
 
 #barra:hover{
@@ -104,7 +104,6 @@ flex-wrap: wrap;
     text-align: center;
     border: 1px;
     border-color: #2E2E2E;
-    transition: background-color 0.3s;
     cursor: pointer;
 }
 
@@ -124,12 +123,13 @@ flex-wrap: wrap;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 3px;
     border: 1px solid #2E2E2E;
     border-radius:5px ;
     margin-bottom: 15%;
     word-break: break-all;
     flex-wrap: wrap;
+    text-align: center;
 
     
 }
@@ -175,7 +175,6 @@ flex-wrap: wrap;
     background-color: #1E1E1E;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 .btnbbs:hover {
@@ -213,4 +212,7 @@ li {
     background-color: #1E1E1E;
     display: flex;
     flex: 1;
+    align-items: center;
+    margin: auto;
+    text-align: center;
 }
